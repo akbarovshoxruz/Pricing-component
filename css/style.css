@@ -38,6 +38,43 @@ body{
   color: #6E728E;
 }
 
+.switch{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.switch-control{
+  width: 56px;
+  height: 32px;
+  border-radius: 16px;
+  padding: 4px;
+  background: linear-gradient(#A2A7F0,#696EDD);
+}
+
+.switch-circle{
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: auto;
+}
+
+.pricing-switch{
+  margin-bottom: 60px;
+}
+
+.switch-label{
+  font-size: 15px;
+  color: rgba(138, 142, 171, 0.5);
+  cursor: pointer;
+}
+
+.switch-label:hover{
+  color: #6E728E;
+}
+
 .pricing-inner{
   display: flex;
   align-items: center;
